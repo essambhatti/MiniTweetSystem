@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+*.db
+*.mo
+*.env
+.env.*
+local_settings.py
+
+# Media
+/media/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# Static files
+/staticfiles/
+static/
+
+# VS Code / PyCharm / JetBrains
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Pipenv / Poetry / Venv
+Pipfile.lock
+poetry.lock
+venv/
+env/
+ENV/
+*.venv
+
+# Migrations (optional)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+**/migrations/*.py
+
+# Coverage / Testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+test-results/
+
+# Docker
+*.pid
+docker-compose.override.yml
